@@ -24,3 +24,7 @@ class TestStringCalcurator(unittest.TestCase):
     def test_concat(self):
         r = str_calculate("a", "b", 'concat')
         self.assertEqual(r, 'ab')
+
+    def test_equal(self):
+        r = str_calculate("a", "b", 'equal')
+        self.assertEqual(r, 'a=b')

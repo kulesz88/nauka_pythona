@@ -1,1 +1,5 @@
-{}
+{
+  "calculator.py": true, 
+  "test.py": true, 
+  "test.py::TestStringCalcurator::test_upper": true
+}

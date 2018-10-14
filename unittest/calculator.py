@@ -11,3 +11,5 @@ def calculate(a, b, operacja):
 def str_calculate(a, b, operacja):
     if operacja == 'concat':
         return a + b
+    if operacja == 'equal':
+        return a=b
